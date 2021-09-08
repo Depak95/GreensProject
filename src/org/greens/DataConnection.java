@@ -51,6 +51,7 @@ public class DataConnection {
 			e.printStackTrace();
 		}finally {
 			con.close();
+			System.out.println("Ends connection");
 		}
 
 	}
